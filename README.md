@@ -3,7 +3,7 @@ The goal of this project is to build a decent emotion detector using the Extende
 
 We use transfer learning to train our model quickly with the help of pre-trained weights available for VGG-Face in Keras.
 
-<b>Target Emotions-<b>
+#### Target Emotions- ####
 1) Happy
 2) Sad
 3) Angry
@@ -12,7 +12,15 @@ We use transfer learning to train our model quickly with the help of pre-trained
 6) Fear
 7) Disgust
 
-Dataset-
-Training images = 764
-Testing images = 217
+#### Dataset- ####  
+Training images = 764  
+Testing images = 217  
+The images have been already cropped to the person's face.
 
+The results involved a lot of trial and error.  
+We have achieved an accuracy of 90.78% in 30 Epochs with a batch size of 4.  
+This project puts a huge emphasis on the model performance on real world images instead of accuracy.  
+
+#### Observation- ####
+It was observed that the model tends to perform well on emotion labels such as happy, neutral, sad & angry while it gets confused among emotion labels such as surprise, fear & disgust.    
+This can be tackled by adding more images to the dataset.

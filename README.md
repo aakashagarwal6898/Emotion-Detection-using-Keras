@@ -37,7 +37,6 @@ This project puts a huge emphasis on the model performance on real world images 
 
 ## Observation- ##
 It was observed that the model tends to perform well on emotion labels such as happy, neutral, sad & angry while it gets confused among emotion labels such as surprise, fear & disgust.    
-This can be tackled by adding more images to the dataset.
 
 ## Future scope- ##   
 Using FER2013 dataset to pre-train the model before training it on CK+ dataset to introduce a richer learning scope for the model.

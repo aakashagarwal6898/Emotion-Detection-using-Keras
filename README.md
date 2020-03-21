@@ -34,4 +34,4 @@ It was observed that the model tends to perform well on emotion labels such as h
 This can be tackled by adding more images to the dataset.
 
 ## Future scope- ##   
-Using FER2013 dataset to pre-train the model before training it on CK+ dataset to introduce a richer learning scope to the model.
+Using FER2013 dataset to pre-train the model before training it on CK+ dataset to introduce a richer learning scope for the model.

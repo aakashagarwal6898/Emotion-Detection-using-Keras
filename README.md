@@ -1,6 +1,10 @@
 # Emotion-Detection-using-Keras
 The goal of this project is to build a decent emotion detector using the Extended Cohn Kanade Images Dataset by leveraging the inherent capabilities of VGG-Face(VGG16) to recognize facial features.   
-We use transfer learning to train our model quickly with the help of pre-trained weights available for VGG-Face in Keras.   
+We use transfer learning to train our model quickly with the help of pre-trained weights available for VGG-Face in Keras.
+
+![Image of prediction](resources/emotions-prediction.png)
+
+
 ## Motivation- ##
 1) To learn different open source tools and libraries such as,
 * Keras
@@ -24,6 +28,9 @@ We use transfer learning to train our model quickly with the help of pre-trained
 Training images = 764  
 Testing images = 217  
 The images have been already cropped to the person's face.
+
+![Image of model-performance](resources/model-performance.png)
+
 
 The results involved a lot of trial and error.  
 We have achieved an accuracy of 90.78% in 30 Epochs with a batch size of 4.  

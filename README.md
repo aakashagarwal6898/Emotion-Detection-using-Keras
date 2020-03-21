@@ -32,7 +32,6 @@ The images have been already cropped to the person's face.
 ![Image of model-performance](resources/model-performance.PNG)
 
 
-The results involved a lot of trial and error.  
 We have achieved an accuracy of 90.78% in 30 Epochs with a batch size of 4.  
 This project puts a huge emphasis on the model performance on real world images instead of accuracy.  
 

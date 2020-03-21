@@ -5,6 +5,7 @@ We use transfer learning to train our model quickly with the help of pre-trained
 1) To learn different open source tools and libraries such as,
 * Keras
 * VGG-Face model & VGG16
+* MTCNN face detection model
 2) To implement various deep learning techniques such as,
 * Transfer learning
 * Data augmentation strategies
